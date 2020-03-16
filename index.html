@@ -1,19 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>SD Shrekup</title>
+
+<!DOCTYPE html5>
+<html lang="en-US"></html>
+<html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
-</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <body>
 
-<h1>My Website</h1>
-<p>A website created by me.</p>
+<head>
+    <title>SD Shrekup</title> 
+</head>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-red">
+    <img src="img/503174654458855436.png" alt="sdshrekup.com" width="64" height="64">
+    <a href="index.html" class="w3-button w3-bar-item">Home</a>
+    <a href="Projects.html" class="w3-button w3-bar-item">Projects</a>
+    <a href="Free-NSP-Download.html" class="w3-button w3-bar-item">Free NSP Download</a>
+    <a href="contact.html" class="w3-button w3-bar-item">Contact</a>
+</nav> 
+<!-- Content will go here -->
+
+<body style="background-color: black;"></body>
+
+<!-- Slide Show -->
+<section>
+    <img class="mySlides" src="/img/frame_000_delay-0.03s.jpg" style="width:100%">
+    <img class="mySlides" src="/img/frame_001_delay-0.04s.jpg" style="width:100%">
+    <img class="mySlides" src="/img/frame_003_delay-0.03s.jpg" style="width:100%">
+  </section> 
+
+
+<script>
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }
+</script>
+
+<p title="This is just a test of what I can do with HTML"
+<h1>It turns out that i do kinda know how to code. <br> It just takes me a while to learn it</h1> </p>
+<p style="color: white;">Now this is a story all about how my life got turned upside down. And i'd like to take a minute to shit right there and tell you the story about how I live with my aunty in bell air</p>
+<a href="https://discordapp.com/invite/deM2KrG"> Discord invite link</a>
+
+
+
 
 </body>
-</html> 
+</html>
